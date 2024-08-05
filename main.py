@@ -60,6 +60,6 @@ def convert_to_morse(msg) -> str:
 
 msg = input('Mensaje a codigo morse: ').upper()
 
-msg = msg.replace('CH','@')
+msg_c = msg.replace('CH','@')
 
-print(f'El mensaje "{msg}" a codigo morse es: {convert_to_morse(msg)}')
+print(f'El mensaje "{msg}" a codigo morse es: {convert_to_morse(msg_c)}')
